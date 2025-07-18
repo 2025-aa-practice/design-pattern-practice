@@ -1,4 +1,4 @@
-package aa.dp.monster;
+package aa.dp;
 
 public class Giant implements Monster {
     @Override

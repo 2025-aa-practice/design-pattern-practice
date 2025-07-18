@@ -1,4 +1,4 @@
-package aa.dp.monster;
+package aa.dp;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package aa.dp.monster;
+package aa.dp;
 
 // Visitor - Element
 public interface Monster {

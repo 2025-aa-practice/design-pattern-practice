@@ -1,4 +1,4 @@
-package aa.dp.monster;
+package aa.dp;
 
 // Visitor - Visitor
 public interface SpellShootable {

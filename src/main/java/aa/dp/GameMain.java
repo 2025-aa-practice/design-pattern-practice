@@ -1,6 +1,6 @@
 package aa.dp;
 
-public class TestMain {
+public class GameMain {
 
     public static void main(
             final String[] args) {

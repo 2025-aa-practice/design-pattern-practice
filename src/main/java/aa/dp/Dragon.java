@@ -1,4 +1,4 @@
-package aa.dp.monster;
+package aa.dp;
 
 public class Dragon implements Monster, SpellShootable {
 

@@ -1,6 +1,6 @@
-package aa.dp.monster;
+package aa.dp;
 
-public class Wolf implements IWolf{
+public class Wolf implements IWolf {
 
     @Override
     public void hitMagic() {
