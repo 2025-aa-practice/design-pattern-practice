@@ -1,5 +1,5 @@
 package aa.dp;
 
-// Conpositor - 
+// Compositor - Element
 public interface IWolf extends Monster {
 }
