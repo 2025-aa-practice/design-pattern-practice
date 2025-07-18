@@ -18,4 +18,8 @@ public class Wolf implements IWolf {
             final SpellShootable spell) {
         spell.spell(this);
     }
+
+    public String getName() {
+        return name;
+    }
 }

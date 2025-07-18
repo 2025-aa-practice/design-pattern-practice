@@ -5,9 +5,12 @@ import java.util.List;
 import java.util.Objects;
 
 public class WolfGroup implements IWolf {
+    private final String name;
     private final List<IWolf> wolfs;
 
-    public WolfGroup() {
+    public WolfGroup(
+            final String name) {
+        this.name = Objects.requireNonNull(name);
         this.wolfs = new ArrayList<>();
     }
 
@@ -30,7 +33,12 @@ public class WolfGroup implements IWolf {
         wolfs.forEach(wolf -> wolf.hitMagic(spell));
     }
 
-	@Override
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
 	public void printWolf() {
     	System.out.println(getClass().getSimpleName() + " contains : ");
     	wolfs.forEach(IWolf::printWolf);

@@ -5,4 +5,5 @@ public interface Monster {
 
     void hitMagic(SpellShootable spell);
 
+	String getName();
 }
