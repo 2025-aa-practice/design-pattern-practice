@@ -1,6 +1,6 @@
 package aa.dp;
 
-public class Dragon implements Monster{
+public class Dragon implements Monster {
 
     @Override
     public void hitMagic(
