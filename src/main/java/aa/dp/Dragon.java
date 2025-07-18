@@ -1,14 +1,9 @@
 package aa.dp;
 
-public class Dragon implements Monster, SpellShootable {
+public class Dragon implements Monster{
 
     @Override
-    public void hitMagic() {
-
-    }
-
-    @Override
-    public void spell(Monster target) {
-
+    public void hitMagic(SpellShootable spell) {
+        spell.spell(this);
     }
 }

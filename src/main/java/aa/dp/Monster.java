@@ -3,6 +3,6 @@ package aa.dp;
 // Visitor - Element
 public interface Monster {
 
-    void hitMagic();
+    void hitMagic(SpellShootable spell);
 
 }

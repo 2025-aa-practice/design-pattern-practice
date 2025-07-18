@@ -23,8 +23,8 @@ public class WolfGroup implements IWolf {
     }
 
     @Override
-    public void hitMagic() {
-
+    public void hitMagic(SpellShootable spell) {
+        spell.spell(this);
     }
 
     public List<IWolf> getWolfs() {

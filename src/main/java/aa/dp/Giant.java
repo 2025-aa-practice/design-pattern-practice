@@ -2,7 +2,7 @@ package aa.dp;
 
 public class Giant implements Monster {
     @Override
-    public void hitMagic() {
-
+    public void hitMagic(SpellShootable spell) {
+        spell.spell(this);
     }
 }
