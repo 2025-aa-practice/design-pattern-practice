@@ -6,6 +6,7 @@ import java.util.Objects;
 public class WolfGroup implements IWolf {
     private final List<IWolf> wolfs;
 
+
     public WolfGroup(
             final List<IWolf> wolfs) {
         this.wolfs = Objects.requireNonNull(wolfs);
@@ -24,5 +25,9 @@ public class WolfGroup implements IWolf {
     @Override
     public void hitMagic() {
 
+    }
+
+    public List<IWolf> getWolfs() {
+        return wolfs;
     }
 }
